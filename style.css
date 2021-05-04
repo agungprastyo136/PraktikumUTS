@@ -1,0 +1,62 @@
+/* import google font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+/* Reset CSS */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	line-height:1;
+	font-size:100%;
+	font-family:'Open Sans', sans-serif;
+	color:#5a5a5a;
+	background : url(ToteBag.jpg);
+	background-size: cover;
+	width: 100px
+	height: 100px;
+	background-attachment: fixed;
+	margin: 40px 40px
+}
+
+
+#container {
+	width: 980px;
+	margin: 0 auto;
+	box-shadow: 0 0 1em #cccccc;
+}
+/* header */
+header {
+	padding: 20px;
+}
+header h3 {
+	margin: 20px 10px;
+	color: #fff;
+
+}
+
+/* navigasi */
+nav {
+ display: block;
+ background-color: none;
+}
+nav a {
+ padding: 15px 30px;
+ display: inline-block;
+ color: black;
+ font-size: 14px;
+ text-decoration: none;
+ font-weight: bold;
+}
+nav a.active,
+nav a:hover {
+ background-color: none;
+}
+footer {
+	clear:both;
+	background-color:none;
+	padding:20px;
+	color:black;
+	margin: 270px 20px; 
+}
